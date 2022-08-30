@@ -34,7 +34,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['ci-cd-task-net.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['task-ci-cd-postgres.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
